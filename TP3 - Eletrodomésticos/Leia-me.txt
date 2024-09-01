@@ -1,0 +1,13 @@
+Os códigos presentes neste diretório realizam a seguinte função (cliente-servidor):
+
+- Cliente:
+Cliente escolhe o produto disponível e faz uma oferta. Caso a oferta seja aceita, o produto é comprado. Caso a oferta seja recusada, é começado uma negociação.
+A negociação consiste em 3 tentativas de ofertas.
+O cliente pode digitar "Lista" para ver a lista de produtos restantes e "Sair" para encerrar o programa.
+
+- Servidor:
+Envia a lista de produtos ao cliente.
+Recebe o código e oferta e elabora a lógica de venda do produto.
+Negocia com o cliente os produtos.
+Mantém a lista de produtos atualizada para enviar ao cliente caso ele digite "Lista".
+Também é finalizada com o comando "Sair" do cliente.
